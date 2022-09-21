@@ -1,12 +1,15 @@
 import React from 'react';
+import styles from './Album.module.css';
 
-export const AlbumComponent = (props) => {
+// props = { album }
+const AlbumComponent = (props) => {
   const imgSrc = props.album.images[0];
 
   return (
     <div className="album-container">
       <img className="cover-img" src={imgSrc.url} alt="coverImage" />
-      <h1 className="album-name">{props.album.name} </h1>
+      <h1 className={styles.albumName}>{props.album.name}</h1>
+
       {props.album.artists.map((artist) => (
         <p className="artist-name" key={artist.id}>
           {artist.name}
@@ -15,3 +18,5 @@ export const AlbumComponent = (props) => {
     </div>
   );
 };
+
+export default AlbumComponent;
