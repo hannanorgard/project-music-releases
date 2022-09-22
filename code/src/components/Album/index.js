@@ -7,7 +7,10 @@ const AlbumComponent = (props) => {
 
   return (
     <div className="album-container">
-      <img className="cover-img" src={imgSrc.url} alt="coverImage" />
+      <div className={styles.imgContainer}>
+        <img className={styles.coverImg} src={imgSrc.url} alt="coverImage" />
+      </div>
+
       <h1 className={styles.albumName}>{props.album.name}</h1>
 
       {props.album.artists.map((artist) => (

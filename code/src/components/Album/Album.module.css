@@ -1,3 +1,7 @@
 .albumName {
-  color: white;
+  color: rgb(238, 231, 231);
+}
+
+.coverImg {
+  max-width: 100%;
 }
