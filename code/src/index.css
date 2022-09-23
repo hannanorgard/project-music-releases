@@ -13,8 +13,9 @@ code {
     monospace;
 }
 
-img.cover-img {
-  max-width: 100%;
+a {
+  text-decoration: none;
+  color: black;
 }
 
 .grid-parent {
@@ -31,6 +32,9 @@ img.cover-img {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
+  }
+  .iconContainer {
+    max-width: 50px;
   }
 }
 

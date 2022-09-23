@@ -1,7 +1,42 @@
 .albumName {
-  color: rgb(238, 231, 231);
+  font-family: Helvetica;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.albumName:hover {
+  border-bottom: 1px solid #ffffff;
+  width: fit-content;
+}
+
+.artistName {
+  font-family: Helvetica;
+  color: #a0a0a0;
+  font-size: 14px;
+}
+
+.artistName:hover {
+  border-bottom: 1px solid #a0a0a0;
+  width: fit-content;
+}
+
+.artistContainer {
+  display: flex;
+  gap: 5px;
 }
 
 .coverImg {
   max-width: 100%;
 }
+
+.imgContainer {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+/* .imgContainer:hover {
+  opacity: 1;
+  filter: brightness(50%);
+} */
