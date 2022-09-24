@@ -6,7 +6,7 @@ import play from './icons-img/play.svg';
 import heart from './icons-img/heart.svg';
 
 const Icons = (props) => {
-  console.log(props);
+  // console.log(props);
   return (
     <div className={styles.iconContainer}>
       <img className={styles.icon} src={dots} alt="icon" />
