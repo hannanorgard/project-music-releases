@@ -6,7 +6,7 @@
   align-items: center;
   text-align: center;
   opacity: 0;
-  transition: opacity 0.4s;
+  transition: 0.4s;
   height: 100%;
 }
 

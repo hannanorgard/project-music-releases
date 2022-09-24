@@ -1,5 +1,7 @@
-.headerContainer {
-  display: flex;
-  justify-content: center;
-  color: rgb(244, 239, 239);
+/* .headerContainer {
+} */
+
+.headerTitle {
+  font-size: 20px;
+  color: white;
 }

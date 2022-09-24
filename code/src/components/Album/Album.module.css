@@ -5,18 +5,20 @@
 }
 
 .albumName:hover {
-  border-bottom: 1px solid #ffffff;
+  text-decoration: underline;
+
   width: fit-content;
 }
 
 .artistName {
   font-family: Helvetica;
   color: #a0a0a0;
+  margin-top: 0;
   font-size: 14px;
 }
 
 .artistName:hover {
-  border-bottom: 1px solid #a0a0a0;
+  text-decoration: underline;
   width: fit-content;
 }
 
@@ -36,7 +38,7 @@
   position: relative;
 }
 
-/* .imgContainer:hover {
+.imgContainer:hover {
   opacity: 1;
   filter: brightness(50%);
-} */
+}
