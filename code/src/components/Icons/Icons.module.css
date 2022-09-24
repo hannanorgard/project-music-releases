@@ -13,14 +13,17 @@
 .icon {
   width: 50px;
   margin: 8px;
+  filter: invert(1);
 }
 
 .iconContainer:hover {
   opacity: 1;
   background-color: rgb(0 0 0 / 43%);
 }
+#playIcon {
+  transition: all 0.4s;
+}
 
 #playIcon:hover {
-  transition: 0.4s;
-  transform: scale(1.5);
+  transform: scale(1.3);
 }

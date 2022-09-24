@@ -4,6 +4,7 @@ import styles from './Album.module.css';
 
 // props = { album }
 const AlbumComponent = (props) => {
+  console.log(props);
   const imgSrc = props.album.images[0];
   console.log(props.album.external_urls);
 
@@ -11,7 +12,7 @@ const AlbumComponent = (props) => {
     <div className="album-container">
       <div className={styles.imgContainer}>
         <img className={styles.coverImg} src={imgSrc.url} alt="coverImage" />
-        <Icons />
+        <Icons url={props.album.external_urls.spotify} />
       </div>
       <a
         href={props.album.external_urls.spotify}
